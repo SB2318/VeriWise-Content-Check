@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+numpy
+easyocr
+opencv-python
+beautifulsoup4
+language_tool_python
+scikit-learn
+pocketbase
+PyMuPDF
+cachetools
+python-dotenv
+python-multipart
+starlette
