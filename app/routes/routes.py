@@ -16,7 +16,7 @@
 #from app.controllers.copyright_check_controller import copyright_check
 
 #router = APIRouter()
-from app.controllers import grammar_controller, plagiarism_controller, copyright_check_controller
+from app.controllers import grammar_controller, plagiarism_controller, copyright_check_controller, readability_controller
 
 
 #router.post("/check-grammar")(check_grammar)
@@ -28,4 +28,4 @@ def register_routes(app):
     app.include_router(grammar_controller.router)
     app.include_router(plagiarism_controller.router)
     app.include_router(copyright_check_controller.router)
-
+    app.include_router(readability_controller.router)
