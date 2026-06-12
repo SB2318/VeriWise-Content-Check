@@ -12,3 +12,5 @@ cachetools
 python-dotenv
 python-multipart
 starlette
+
+textstat
