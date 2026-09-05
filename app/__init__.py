@@ -16,12 +16,12 @@ def create_app():
         title="Content Intelligence API",
         description="API for Content verification",
         version="1.0.0",
-        root_path="/content-intel"
+        root_path="/veriwise"
     )
     origins = [
     "https://veriwise-swagger-ui.vercel.app", 
     'http://127.0.0.1:5500'
-    "https://uhsocial.in/content-intel"
+    "https://ultimatehealth.blog/veiwise"
     ]
     app.add_middleware(
     CORSMiddleware,
